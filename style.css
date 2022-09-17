@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.b {
+  border: 2px solid red;
+}
+
+html {
+  padding: 0% 0%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav {
+  background-color: cornflowerblue;
+
+  padding: 1rem;
+}
+
+body {
+  padding: auto 5%;
+  background-color: cornflowerblue;
+}
+
+body nav {
+  padding: auto 8%;
+}
+.logo, .logo span, .logo span, .logo span .subtitle {
+  font-size: 2rem;
+  font-family: 'Russo One', sans-serif;
+}
+
+.subtitle{
+  text-decoration: none;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.logo span {
+  color: white;
+}
+
+.menulist {
+  list-style: none;
+  display: inline-flex;
+  margin: auto 1rem;
+  color: aliceblue;
+}
+
+footer div span {
+  float: right;
+  padding-right: 3%;
+}
+
+footer div {
+  padding: 1rem 2rem;
+  font-size: 90%;
+}
+
+footer {
+  background-color: rgba(48, 165, 110, 0.63);
+  color: whitesmoke;
+}
+
+footer section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.social {
+  text-align: center;
+  padding: 4%;
+  background-color: cornflowerblue;
+}
+
+.social i {
+  font-size: 2rem;
+  color: white;
+  margin: auto 1rem;
+
+  
+}
+i:hover{
+  color: #0000ff;
+}
+
+.profile {
+  padding: 0.3rem 1rem;
+}
+
+.profile img {
+  height: 9cm;
+  width: 7cm;
+  border-radius: 0rem 2rem;
+}
+
+/* .il{
+display: inline-block;
+} */
+
+.profile .main{
+  display: flex;
+  margin: 0cm 1cm;
+  background-color: aqua;
+  border-radius: 1.2rem;
+  padding: 2rem;
+}
+
+
+.double{
+  font-size: 2rem;
+}
+
+button{
+  padding: 0.5rem 2rem;
+  border: none;
+  display: inline-block;
+  border-radius: 7%;
+  background-color: #0000ff;
+  color: aliceblue;
+  margin: 0.3rem;
+  border: 2px solid transparent;
+
+  
+}
+
+.details{
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flexbox;
+  flex-flow: row;
+
+}
+
+.fa-face-awesome{
+  color: white;
+}
+
+.btn-group{
+  text-align: center;
+  height: fixed;
+}
+
+.dl{
+  background-color: blueviolet;
+}
+
+button:hover{
+  border: 2px solid black; 
+  background-color: white;
+  color: black;
+}
+
+.desc{
+  padding: 1rem 2rem;
+  text-align: justify;
+
+}
